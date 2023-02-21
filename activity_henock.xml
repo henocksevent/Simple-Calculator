@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" tools:context=".HenockActivity">
+
+
+<TableLayout
+android:id="@+id/root_view" android:layout_width="392dp" android:layout_height="547dp" android:gravity="center_horizontal" android:padding="20dp" tools:layout_editor_absoluteX="8dp">
+
+<TableRow
+android:layout_width="match_parent" android:layout_height="match_parent">
+
+<EditText
+android:id="@+id/result" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_span="4" android:cursorVisible="false" android:editable="false" android:ems="10" android:gravity="end" android:inputType="textPersonName" android:text="" android:textSize="50dp" />
+</TableRow>
+
+<TableRow
+android:layout_width="match_parent" android:layout_height="match_parent">
+
+<Button
+android:id="@+id/hhbutton_7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="7" android:textSize="20dp" />
+
+<Button
+android:id="@+id/hhbutton_8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="8" android:textSize="20dp" />
+
+<Button
+android:id="@+id/hhbutton_9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="9" android:textSize="20dp" />
+
+<Button
+android:id="@+id/hhbutton_plus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="+" android:textSize="20dp" />
+
+</TableRow>
+
+<TableRow
+android:layout_width="match_parent" android:layout_height="match_parent">
+
+<Button
+android:id="@+id/hhbutton_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="4" android:textSize="20dp" />
+
+<Button
+android:id="@+id/hhbutton_5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="5" android:textSize="20dp" />
+
+<Button
+android:id="@+id/hhbutton_6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="6" android:textSize="20dp" />
+
+<Button
+android:id="@+id/hhbutton_minus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="-" android:textSize="20dp" />
+</TableRow>
+
+<TableRow
+android:layout_width="match_parent" android:layout_height="match_parent">
+
+<Button
+android:id="@+id/hhbutton_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1" android:textSize="20dp" />
+
+<Button
+android:id="@+id/hhbutton_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2" android:textSize="20dp" />
+
+<Button
+android:id="@+id/hhbutton_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="3" android:textSize="20dp" />
+
+<Button
+android:id="@+id/hhbutton_multiple" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="*" android:textSize="20dp" />
+</TableRow>
+
+<TableRow
+android:layout_width="match_parent" android:layout_height="match_parent">
+
+<Button
+android:id="@+id/hhbutton_0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:textSize="20dp" />
+
+<Button
+android:id="@+id/hhbutton_c" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="c" android:textSize="20dp" />
+
+<Button
+android:id="@+id/button_equal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="=" android:textSize="20dp" />
+
+<Button
+android:id="@+id/hhbutton_divide" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="/" android:textSize="20dp" />
+</TableRow>
+</TableLayout>
+
+
+<TextView
+android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_marginStart="38dp" android:layout_marginEnd="28dp" android:layout_marginBottom="28dp" android:text="1882004" android:textSize="20sp"
+app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@+id/hhtextView4" app:layout_constraintHorizontal_bias="0.45" app:layout_constraintStart_toStartOf="parent" />
+
+<TextView
+android:id="@+id/hhtextView4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_marginEnd="16dp" android:layout_marginBottom="28dp" android:text="Henock Hamonangan" android:textSize="20sp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
